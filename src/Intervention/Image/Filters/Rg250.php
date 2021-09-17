@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Intervention\Image\Filters;
+namespace Rutatiina\Services\Intervention\Image\Filters;
 
 use Intervention\Image\Image;
 use Intervention\Image\Filters\FilterInterface;
