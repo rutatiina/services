@@ -16,6 +16,11 @@ class ServicesServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/config/image.php' => config_path('image.php'),
             __DIR__.'/config/imagecache.php' => config_path('imagecache.php'),
+
+            __DIR__.'/config/activitylog.php' => config_path('activitylog.php'),
+            __DIR__.'/config/artisan-gui.php' => config_path('artisan-gui.php'),
+            __DIR__.'/config/barcode.php' => config_path('barcode.php'),
+
         ], 'rutatiina/services');
     }
 
