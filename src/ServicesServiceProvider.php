@@ -23,7 +23,7 @@ class ServicesServiceProvider extends ServiceProvider
             __DIR__.'/config/artisan-gui.php' => config_path('artisan-gui.php'),
             __DIR__.'/config/barcode.php' => config_path('barcode.php'),
 
-        ], 'rutatiina-configs');
+        ], 'rutatiina/configs');
     }
 
     /**
