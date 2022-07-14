@@ -3,7 +3,7 @@
 namespace Rutatiina\Services\Seeders;
 
 use Illuminate\Database\Seeder;
-use Rutatiina\Admin\Models\Service;
+use Rutatiina\Qbuks\Models\Service;
 
 class ServicesTableSeeder extends Seeder
 {
